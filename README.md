@@ -9,7 +9,12 @@ GetBetter is an application for recommending medicine and healthy food. We will 
 
 ## Team Members
 
-M151DSY2556 - Yolanda Pradiva Dinarti Prameswari | M151DSY2545 – Tafa Hafidzah | M305DKY4084 – Roro Ayu Pangestuti | C305DSY3197 - Silvy Milda Puspita | C258DKX4153 – Muhammad Hikam | A206DKY4944 – Wahyu Nis Rina
+M151DSY2556 - Yolanda Pradiva Dinarti Prameswari
+M151DSY2545 – Tafa Hafidzah
+M305DKY4084 – Roro Ayu Pangestuti
+C305DSY3197 - Silvy Milda Puspita
+C258DKX4153 – Muhammad Hikam
+A206DKY4944 – Wahyu Nis Rina
 
 # Machine Learning Path
 
