@@ -1,5 +1,0 @@
-cough,breathlessness,headache,chest_pain,loss_of_balance,blackheads,disease
-1,0,0,1,0,0,GERD
-1,1,0,0,0,0,Asthma
-0,0,1,1,1,0,Hypertension
-0,0,1,0,0,0,Migraine
