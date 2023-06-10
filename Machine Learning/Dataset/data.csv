@@ -1,0 +1,115 @@
+Cough,Headache,Blackhead,Stomach Pain,Itching,Skin Rash,Blown,Continous Sneezing,disease
+0,0,1,0,0,0,0,0,Acne
+0,1,1,0,0,0,0,0,Acne
+0,0,0,0,1,0,0,0,Allergy
+0,0,0,0,0,1,0,0,Allergy
+1,0,0,1,0,0,0,0,Allergy
+1,0,0,0,1,0,0,0,Allergy
+1,0,0,0,0,1,0,0,Allergy
+1,0,0,0,0,0,0,1,Allergy
+0,1,0,0,1,0,0,0,Allergy
+0,1,0,0,0,1,0,0,Allergy
+0,0,1,0,1,0,0,0,Allergy
+0,0,1,0,0,1,0,0,Allergy
+0,0,0,1,1,0,0,0,Allergy
+0,0,0,1,0,1,0,0,Allergy
+0,0,0,1,0,0,1,0,Allergy
+0,0,0,1,0,0,0,1,Allergy
+0,0,0,0,1,1,0,0,Allergy
+0,0,0,0,1,0,1,0,Allergy
+0,0,0,0,1,0,0,1,Allergy
+0,0,0,0,0,1,1,0,Allergy
+0,0,0,0,0,1,0,1,Allergy
+1,0,1,0,1,0,0,0,Allergy
+1,0,1,0,0,1,0,0,Allergy
+1,0,0,1,1,0,0,0,Allergy
+1,0,0,1,0,1,0,0,Allergy
+1,0,0,1,0,0,1,0,Allergy
+1,0,0,0,1,1,0,0,Allergy
+1,0,0,0,1,0,1,0,Allergy
+1,0,0,0,0,1,1,0,Allergy
+1,0,0,0,0,1,0,1,Allergy
+1,0,0,0,0,0,1,1,Allergy
+0,1,1,0,1,0,0,0,Allergy
+0,1,1,0,0,1,0,0,Allergy
+0,1,1,0,0,0,1,0,Allergy
+0,1,0,1,1,0,0,0,Allergy
+0,1,0,1,0,1,0,0,Allergy
+0,1,0,1,0,0,1,0,Allergy
+0,1,0,0,1,1,0,0,Allergy
+0,1,0,0,1,0,1,0,Allergy
+0,1,0,0,1,0,0,1,Allergy
+0,1,0,0,0,1,1,0,Allergy
+0,1,0,0,0,1,0,1,Allergy
+0,0,1,1,1,0,0,0,Allergy
+0,0,1,1,0,1,0,0,Allergy
+0,0,1,1,0,0,1,0,Allergy
+0,0,1,1,0,0,0,1,Allergy
+0,0,1,0,1,1,0,0,Allergy
+0,0,1,0,1,0,1,0,Allergy
+0,0,1,0,1,0,0,1,Allergy
+0,0,1,0,0,1,1,0,Allergy
+0,0,1,0,0,1,0,1,Allergy
+0,0,1,0,0,0,1,1,Allergy
+0,0,0,1,1,1,0,0,Allergy
+0,0,0,1,1,0,1,0,Allergy
+0,0,0,1,1,0,0,1,Allergy
+0,0,0,0,1,1,1,0,Allergy
+0,0,0,0,1,0,1,1,Allergy
+0,0,0,0,0,1,1,1,Allergy
+1,1,1,1,0,0,0,0,Allergy
+1,1,0,1,1,0,0,0,Allergy
+1,1,0,0,1,1,0,0,Allergy
+1,1,0,0,0,1,1,0,Allergy
+1,1,0,0,0,0,1,1,Allergy
+1,1,1,0,1,0,0,0,Allergy
+1,1,1,0,0,1,0,0,Allergy
+1,1,1,0,0,0,1,0,Allergy
+1,1,0,1,1,0,0,1,Allergy
+1,1,0,1,0,1,0,0,Allergy
+1,1,0,1,0,0,1,0,Allergy
+1,1,0,1,0,0,0,1,Allergy
+1,1,0,0,1,1,0,0,Allergy
+1,1,0,0,1,0,1,0,Allergy
+1,1,0,0,1,0,0,1,Allergy
+1,1,0,0,0,1,1,0,Allergy
+1,1,0,0,0,1,0,1,Allergy
+1,1,0,0,0,0,1,1,Allergy
+1,0,1,1,1,0,0,0,Allergy
+1,0,1,0,1,1,0,0,Allergy
+1,0,1,0,0,1,1,0,Allergy
+1,0,1,0,0,0,1,1,Allergy
+1,0,1,1,0,1,0,0,Allergy
+1,0,1,1,0,0,1,0,Allergy
+1,0,1,1,0,0,0,1,Allergy
+1,0,1,1,1,0,0,0,Allergy
+1,0,0,1,1,1,0,0,Allergy
+1,0,0,0,1,1,1,0,Allergy
+0,0,0,0,0,0,1,0,Angina
+0,0,1,0,0,0,1,0,Angina
+1,0,0,0,0,0,1,0,Asthma
+0,1,0,0,0,0,1,0,Asthma
+0,0,0,0,0,0,1,1,Asthma
+0,0,0,0,0,0,0,1,Cold & Flu
+0,1,0,0,0,0,0,1,Cold & Flu
+1,1,1,0,0,0,0,0,Cold & Flu
+1,1,0,1,0,0,0,0,Cold & Flu
+1,1,0,0,1,0,0,0,Cold & Flu
+1,1,0,0,0,1,0,0,Cold & Flu
+1,1,0,0,0,0,1,0,Cold & Flu
+1,1,0,0,0,0,0,1,Cold & Flu
+1,0,1,0,0,0,0,1,Cold & Flu
+0,1,1,0,0,0,0,1,Cold & Flu
+0,1,0,1,0,0,0,1,Cold & Flu
+1,0,0,0,0,0,0,0,Flu
+1,0,1,0,0,0,0,0,Flu
+0,0,1,0,0,0,0,1,Flu
+0,0,0,1,0,0,0,0,Maag
+1,0,1,1,0,0,0,0,Maag
+0,1,1,1,0,0,0,0,Maag
+0,1,0,0,0,0,0,0,Migrain
+1,1,0,0,0,0,0,0,Migrain
+0,1,0,1,0,0,0,0,Not Found
+0,0,1,1,0,0,0,0,Not Found
+1,0,1,0,0,0,1,0,Not Found
+1,0,0,0,0,1,1,1,Pneumonia
