@@ -43,8 +43,8 @@ GetBetter is an application for recommending medicine and healthy food. We will 
 
 
 ## Data Source
-https://www.kaggle.com/datasets/jithinanievarghese/drugs-side-effects-and-medical-condition (Source Data)
-https://drive.google.com/file/d/1HUUq3gN37bCKMx0BE5jgcqtADLfD9y2K/view?usp=drive_link (Data Collect)
+* https://www.kaggle.com/datasets/jithinanievarghese/drugs-side-effects-and-medical-condition (Source Data)
+* https://drive.google.com/file/d/1HUUq3gN37bCKMx0BE5jgcqtADLfD9y2K/view?usp=drive_link (Data Collect)
 
 
 
