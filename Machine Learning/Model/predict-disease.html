@@ -1,0 +1,73 @@
+<html>
+<head></head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script lang="js">
+        
+        async function run(){
+            const csvUrl = '/model/data.csv';
+            
+            const trainingData = tf.data.csv(csvUrl, {
+                // YOUR CODE HERE
+                columnConfigs: {
+                    disease: {
+                        isLabel: true
+                    }
+                }
+                
+            });
+
+            const numOfFeatures = (await trainingData.columnNames()).length - 1;
+            const numOfSamples = 33; 
+            const convertedData = 
+                  trainingData.map(({xs, ys}) => {
+                    const labels = [
+                        ys.disease == "Acne" ? 1 : 0,
+                        ys.disease == "Allergy" ? 1 : 0,
+                        ys.disease == "Angina" ? 1 : 0,
+                        ys.disease == "Asthma" ? 1 : 0, 
+                        ys.disease == "Cold & Flu" ? 1 : 0, 
+                        ys.disesae == "Flu" ? 1 : 0,
+                        ys.disease == "Maag" ? 1 : 0,
+                        ys.disease == "Migrain" ?  1 : 0,
+                        ys.disease == "Not Found" ? 1 : 0,
+                        ys.disease == "Pneumonia"? 1: 0
+                    ]
+                     return{ xs: Object.values(xs), ys: Object.values(labels)};
+                  }).batch(10);
+
+            const model = tf.sequential();
+            model.add(tf.layers.dense({inputShape: [numOfFeatures], activation: "sigmoid", units: 11}))
+            model.add(tf.layers.dense({activation: "softmax", units: 10}));
+            
+            model.compile({loss: "categoricalCrossentropy", optimizer: tf.train.adam(0.001)});
+            1
+            await model.fitDataset(convertedData, 
+                             {epochs:100,
+                              callbacks:{
+                                  onEpochEnd: async(epoch, logs) =>{
+                                      console.log("Epoch: " + epoch + " Loss: " + logs.loss);
+                                  }
+                              }});
+            
+            // Test Cases:
+            
+            // Setosa
+            const testVal = tf.tensor2d([0, 1, 1, 0, 0, 0, 0, 0], [1, 8]);
+        
+            const prediction = model.predict(testVal);
+            const pIndex = tf.argMax(prediction, axis=1).dataSync();
+            
+            const classNames = ["Acne" , "Allergy" , "Angina" , "Asthma" , "Cold & Flu" , "Flu" , "Maag" , "Migrain" , "Not Found", "Pneumonia"];
+            
+            // alert(prediction)
+            alert(classNames[pIndex])
+            
+            await model.save('downloads://my_model');
+        }
+        run();
+    </script>
+<body>
+</body>
+</html>
+
+
