@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".LoginEmptyActivity" >
+
+	<ScrollView
+		android:id="@+id/login___kosong"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View
+				android:id="@+id/_bg__login___kosong"
+				android:background="@drawable/_bg__login___kosong_shape"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="428dp"
+				android:layout_height="926dp" />
+
+			<View
+				android:id="@+id/rectangle"
+				android:background="@drawable/rectangle_shape"
+				android:layout_marginStart="139dp"
+				android:layout_marginTop="905dp"
+				android:layout_width="151dp"
+				android:layout_height="5dp" />
+
+			<TextView
+				android:id="@+id/create_new_account__sign_up"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="16sp"
+				android:textColor="@color/create_new_account__sign_up_color"
+				android:layout_marginLeft="99dp"
+				android:layout_marginTop="587dp"
+				android:layout_width="240dp"
+				android:layout_height="32dp"
+				android:text="@string/create_new_account__sign_up_string" />
+
+			<RelativeLayout
+				android:id="@+id/login_button"
+				android:layout_marginTop="499dp"
+				android:layout_marginStart="35dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<View
+					android:id="@+id/rectangle_29"
+					android:background="@drawable/rectangle_29_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="358dp"
+					android:layout_height="66dp" />
+
+				<TextView
+					android:id="@+id/button"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="16sp"
+					android:textColor="@color/button_color"
+					android:layout_marginLeft="150dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="65dp"
+					android:layout_height="32dp"
+					android:text="@string/button_string_login" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout
+				android:id="@+id/status_bar"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginStart="35dp"
+				android:layout_marginTop="15dp">
+
+				<RelativeLayout
+					android:id="@+id/group_5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="284dp"
+					android:layout_marginTop="2dp">
+
+					<ImageView
+						android:id="@+id/wifi"
+						android:layout_width="18dp"
+						android:layout_height="13dp"
+						android:layout_marginStart="24dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="wifi"
+						android:src="@drawable/wifi" />
+
+					<RelativeLayout
+						android:id="@+id/__battery"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="47dp"
+						android:layout_marginTop="0dp">
+
+						<ImageView
+							android:id="@+id/fill"
+							android:layout_width="20.19dp"
+							android:layout_height="8.65dp"
+							android:layout_marginStart="1.92dp"
+							android:layout_marginTop="1.92dp"
+							android:contentDescription="fill"
+							android:src="@drawable/fill" />
+
+						<ImageView
+							android:id="@+id/outline"
+							android:layout_width="26.6dp"
+							android:layout_height="12.5dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:alpha="0.40000000596046"
+							android:contentDescription="outline"
+							android:src="@drawable/outline" />
+
+					</RelativeLayout>
+
+					<ImageView
+						android:id="@+id/reception"
+						android:layout_width="18.15dp"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="1dp"
+						android:contentDescription="reception"
+						android:src="@drawable/reception" />
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/time"
+					android:layout_width="60dp"
+					android:layout_height="31dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="-3dp"
+					android:layout_marginTop="0dp"
+					android:gravity="center"
+					android:text="@string/time_string"
+					android:textColor="@color/rectangle_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/group_34999"
+				android:layout_marginTop="63dp"
+				android:layout_marginStart="35dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<RelativeLayout
+					android:id="@+id/back_button"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+
+					<View
+						android:id="@+id/unsplash_puhxosappfa"
+						android:background="@drawable/unsplash_puhxosappfa_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="50dp"
+						android:layout_height="50dp" />
+
+				</RelativeLayout>
+
+				<RelativeLayout android:id="@+id/curved___arrow_left"
+					android:layout_marginTop="13dp"
+					android:layout_marginStart="13dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+
+					<ImageView
+						android:id="@+id/shape"
+						android:src="@drawable/shape"
+						android:contentDescription="shape"
+						android:layout_marginStart="4dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="16dp"
+						android:layout_height="12dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/login"
+				android:layout_marginTop="172dp"
+				android:layout_marginStart="35dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:id="@+id/forgot_your_password_"
+					android:layout_gravity="center_vertical|end"
+					android:gravity="end"
+					android:textSize="14sp"
+					android:textColor="@color/create_new_account__sign_up_color"
+					android:layout_marginLeft="190dp"
+					android:layout_marginTop="291dp"
+					android:layout_width="164dp"
+					android:layout_height="29dp"
+					android:text="@string/forgot_your_password__string" />
+
+				<TextView
+					android:id="@+id/login_to_your_account"
+					android:layout_width="327dp"
+					android:layout_height="127dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:text="@string/login_to_your_account_string"
+					android:textColor="@color/rectangle_color"
+					android:textSize="38sp"
+					android:textStyle="bold" />
+
+				<RelativeLayout
+					android:id="@+id/input_email"
+					android:layout_marginTop="135dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+
+					<View
+						android:id="@+id/rectangle_ek1"
+						android:background="@drawable/rectangle_ek1_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="360dp"
+						android:layout_height="62dp" />
+
+					<TextView
+						android:id="@+id/your_email_address"
+						android:textSize="14sp"
+						android:textColor="@color/your_email_address_color"
+						android:layout_marginLeft="57dp"
+						android:layout_marginTop="22dp"
+						android:layout_width="146dp"
+						android:layout_height="29dp"
+						android:text="@string/your_email_address_string" />
+
+					<RelativeLayout
+						android:id="@+id/curved___mail"
+						android:layout_marginTop="18dp"
+						android:layout_marginStart="18dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" >
+
+						<ImageView
+							android:id="@+id/shape_ek1"
+							android:src="@drawable/shape_ek1"
+							android:contentDescription="shape_ek1"
+							android:layout_marginStart="2.5dp"
+							android:layout_marginTop="4.5dp"
+							android:layout_width="19dp"
+							android:layout_height="15dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/input_password"
+					android:layout_marginTop="212dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+
+					<View
+						android:id="@+id/rectangle_ek2"
+						android:background="@drawable/rectangle_ek2_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="360dp"
+						android:layout_height="62dp" />
+
+					<TextView
+						android:id="@+id/your_password"
+						android:textSize="14sp"
+						android:textColor="@color/your_email_address_color"
+						android:layout_marginLeft="57dp"
+						android:layout_marginTop="21dp"
+						android:layout_width="116dp"
+						android:layout_height="29dp"
+						android:text="@string/your_password_string" />
+
+					<RelativeLayout
+						android:id="@+id/curved___lock_on"
+						android:layout_marginTop="18dp"
+						android:layout_marginStart="21dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" >
+
+						<ImageView
+							android:id="@+id/shape_ek2"
+							android:src="@drawable/shape_ek2"
+							android:contentDescription="shape_ek2"
+							android:layout_marginStart="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_width="14dp"
+							android:layout_height="18dp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout
+						android:id="@+id/curved___eye_closed"
+						android:layout_marginTop="18dp"
+						android:layout_marginStart="310dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" >
+
+						<ImageView
+							android:id="@+id/shape_ek3"
+							android:src="@drawable/shape_ek3"
+							android:contentDescription="shape_ek3"
+							android:layout_marginStart="2.83dp"
+							android:layout_marginTop="3dp"
+							android:layout_width="18.34dp"
+							android:layout_height="18dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

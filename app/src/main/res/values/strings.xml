@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- splash_screen strings -->
+
+    <string name="app_name">GetBetter</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="getbetter_string">GetBetter</string>
+
+    <!-- opening_screen_1 strings -->
+
+    <string name="hi__welcome_to_getbetter_application__string">Hi, Welcome to
+		GetBetter Application!</string>
+    <string name="we_build_food_and_medicine_recommendation_application_for_health_living__string">We build Food and Medicine Recommendation Application for Health Living!</string>
+    <string name="next_string">Next</string>
+
+    <!-- opening_screen_2 strings -->
+
+    <string name="let_our_app_guide_you_to_a_healthier_and_tastier_lifestyle__string">Let our app guide you to a healthier and tastier lifestyle!</string>
+
+    <!-- opening_screen_3 strings -->
+
+    <string name="get_personalized_recommendations_for_your_food_and_medicine_needs__string">Get personalized recommendations for your food and medicine needs.</string>
+    <string name="let_s_get_started___string">Lets Get Started ></string>
+
+    <!-- login_empty_activity strings -->
+
+    <string name="create_new_account__sign_up_string">Create New Account? Sign Up</string>
+    <string name="button_string_login">LOGIN</string>
+    <string name="time_string">19:02</string>
+    <string name="forgot_your_password__string">Forgot Your Password?</string>
+    <string name="login_to_your_account_string">Login to
+	Your Account</string>
+    <string name="your_email_address_string">Your Email Address</string>
+    <string name="your_password_string">Your Password</string>
+    <string name="already_have_an_account__login_string">Already have an account? Login</string>
+    <string name="sign_up_new_account_string">Sign Up
+		New Account</string>
+    <string name="button2_string">Sign up</string>
+    <string name="name_string">Name</string>
+    <string name="username_string">Username</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Password</string>
+
+    <!-- register_empty strings -->
+
+    <string name="button_string">Sign up</string>
+
+    <!-- beranda_awal_horizontal strings -->
+
+    <string name="show_bookmarks_string">Show bookmarks</string>
+    <string name="want_to_see_what_you_ve_saved_so_you_can_read_it_again__string">Want to see what you have saved so you can read it again?</string>
+    <string name="look__string">Look!</string>
+    <string name="previous_searches_string">Previous searches</string>
+    <string name="are_you_experiencing_less_feeling_well__string">Are you experiencing less feeling well?</string>
+    <string name="hello__dude__string">Hello, Dude!</string>
+    <string name="getrent_string">GetBetter</string>
+    <string name="_1_string">1</string>
+    <string name="healthy_food_string">Healthy Food</string>
+    <string name="read_____string">Read ...</string>
+    <string name="read_____ek1_string">Read ...</string>
+    <string name="read_____ek2_string">Read ...</string>
+    <string name="the_benefits_of____string">The Benefits of...</string>
+    <string name="danger_of_spicy____string">Danger of spicy...</string>
+    <string name="importance_of____string">Importance of...</string>
+    <string name="read_____ek3_string">Read ...</string>
+    <string name="read_____ek4_string">Read ...</string>
+    <string name="read_____ek5_string">Read ...</string>
+    <string name="the_benefits_of____ek1_string">The Benefits of...</string>
+    <string name="danger_of_spicy____ek1_string">Danger of spicy...</string>
+    <string name="importance_of____ek1_string">Importance of...</string>
+    <string name="search_string">Search</string>
+
+    <!-- profile_tampilan_awal strings -->
+
+    <string name="copyright_2023___version_2023_1_string">Copyright 2023 | Version 2023.1</string>
+    <string name="edit_profile_string">Edit Profile</string>
+    <string name="language_string">Language</string>
+    <string name="settings_string">Log Out</string>
+    <string name="laurance_string">Laurance</string>
+    <string name="laurance_gmail_com_string">laurance@gmail.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- splash_screen colors -->
+
+	<color name="colorPrimary">@color/shapenavbargreen_color</color>
+	<color name="colorPrimaryDark">@color/lightGray</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+
+	<color name="_bg__splash_screen_color">#5E915C</color>
+	<color name="getbetter_color">#FFFFFF</color>
+
+	<!-- opening_screen_1 colors -->
+
+	<color name="_bg__opening_screen_1_color">#5E915C</color>
+	<color name="rectangle_color_os1">#FFFFFF</color>
+	<color name="ellipse_111_color">#A6A6A6</color>
+	<color name="rectangle_4215_color">#D9D9D9</color>
+	<color name="next_color">#534B4B</color>
+
+	<!-- opening_screen_2 colors -->
+
+	<color name="_bg__opening_screen_2_color">#5E915C</color>
+	<color name="rectangle_os2_color">#FFFFFF</color>
+
+	<!-- opening_screen_3 colors -->
+
+	<color name="_bg__opening_screen_3_color">#5E925D</color>
+	<color name="rectangle_os3_color">#FFFFFF</color>
+
+	<!-- register_empty colors -->
+
+	<color name="_bg__register_empty_color">#F5F5F5</color>
+	<color name="rectangle_5_color">#000000</color>
+	<color name="time_color">#190600</color>
+	<color name="already_have_an_account__login_color">#9D9693</color>
+	<color name="name_color">#C9C5C4</color>
+
+	<!-- login_empty_activity colors -->
+
+	<color name="_bg__login___kosong_color">#F5F5F5</color>
+	<color name="rectangle_color">#190600</color>
+	<color name="create_new_account__sign_up_color">#9D9693</color>
+	<color name="rectangle_29_color">#5E925D</color>
+	<color name="button_color">#FFFFFF</color>
+	<color name="unsplash_puhxosappfa_color">#CBDDDD</color>
+	<color name="your_email_address_color">#C9C5C4</color>
+
+	<!-- beranda_awal_horizontal colors -->
+
+	<color name="_bg__beranda_awal_horizontal_color">#F5F5F5</color>
+	<color name="shapebookmarks_color">#CBDDDD</color>
+	<color name="show_bookmarks_color">#554D49</color>
+	<color name="want_to_see_what_you_ve_saved_so_you_can_read_it_again__color">#000000</color>
+	<color name="look__color">#457D58</color>
+	<color name="shapenavbargreenshadow_color">#DFDFDF</color>
+	<color name="shapenavbargreen_color">#5E925D</color>
+	<color name="getrent_color">#FFFFFF</color>
+	<color name="ellipse_109_color">#FF0000</color>
+	<color name="healthy_food_color">#000000</color>
+	<color name="read_____color">#457D58</color>
+	<color name="rectangle_4180_color">#DFDFDF</color>
+	<color name="rectangle_4181_color">#FFFFFF</color>
+
+	<!-- profile___tampilan_awal colors -->
+
+	<color name="_bg__profile___tampilan_awal_color">#F5F5F5</color>
+	<color name="getbetter_color2">#5E925D</color>
+	<color name="copyright_2023___version_2023_1_color">#9D9693</color>
+	<color name="edit_profile_color">#190600</color>
+
+	<color name="lightGray">#BCBCBC</color>
+
+	<color name="transparent">#00000000</color>
+
+	<color name="nonselected">#D9D9D9</color>
+	<color name="selected">#BBB5B5</color>
+
+	<color name="greenLight">#E7EDE9</color>
+	<color name="greenDark">#CADDD2</color>
+
+	<color name="buttonSearch">#CBDDD1</color>
+</resources>
