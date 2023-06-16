@@ -40,14 +40,6 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
 
-			<View
-				android:id="@+id/_bg__profile___tampilan_awal"
-				android:background="@drawable/_bg__profile___tampilan_awal_shape"
-				android:layout_marginStart="0dp"
-				android:layout_marginTop="0dp"
-				android:layout_width="428dp"
-				android:layout_height="926dp" />
-
 
 			<RelativeLayout
 				android:id="@+id/getbetter_logo"
